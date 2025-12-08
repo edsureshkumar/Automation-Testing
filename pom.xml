@@ -56,8 +56,10 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                         <argLine>-Dci=true</argLine>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 </project> 
+
